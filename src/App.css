@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  margin: 50px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.blog_img {
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-row-gap: 1em;
+  column-gap: 1em;
+  justify-content: space-around;
+}
+.blog_card {
+  background-color: rgb(212, 236, 146);
+  border: 0.1px solid rgb(247, 173, 36);
+  margin-bottom: 10px;
+  border-radius: 50px;
+  width: 20rem;
+}
+
+div > nav {
+  border-radius: 50px;
+  padding: 30px;
+  background-color: rgb(4, 4, 41);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+div > nav > a {
+  font-size: 2rem;
+  color: azure;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 2.2rem;
+  font-weight: bold;
+  transition: all 1500ms;
+}

@@ -54,7 +54,7 @@ div > nav > a {
 }
 
 a:hover {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
-  transition: all 1500ms;
+  transition: all 150ms;
 }
